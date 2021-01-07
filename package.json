@@ -1,0 +1,32 @@
+{
+  "name": "uploaderuitests",
+  "version": "1.0.0",
+  "description": "Uploader UI testing with Spectron",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tidepool-org/UploaderUITests.git"
+  },
+  "author": "Ginny Yadav",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/tidepool-org/UploaderUITests/issues"
+  },
+  "homepage": "https://github.com/tidepool-org/UploaderUITests#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.2.1",
+    "spectron": "^10.0.0"
+  },
+  "dependencies": {
+    "electron": "^11.1.1",
+    "esm": "^3.2.25"
+  }
+}
